@@ -107,10 +107,13 @@ public void CheckTag(int client)
 		if(ZR_IsClientHuman(client))
 		{
 			if((leader && Leader_CurrentLeader() == client) || (commander && zrc_is(client)))
+			{
 				Format(tag, sizeof(tag), "%s ", g_Leader_Prefix);	
+				CS_SetClientClanTag(client, tag);
+			}
 		}
 		
-		CS_SetClientClanTag(client, tag);
+
 	}
 }
 
