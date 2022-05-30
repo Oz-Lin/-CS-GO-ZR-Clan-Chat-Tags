@@ -12,6 +12,8 @@ Currently, it has the following Tags:
 * Leader (Optional);
 * Commander (Optional);
 
+If you only want the leader tag, check out scripting/zr_leader_tags.sp instead
+
 ## Requirements
 
 * [Sourcemod](https://www.sourcemod.net/) ;
