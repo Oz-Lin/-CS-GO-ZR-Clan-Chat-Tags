@@ -2,8 +2,12 @@
 #include <cstrike>
 #include <zombiereloaded>
 
+// If you want to use Simple Chat-Processor make sure chat-processor is unloaded
+// Or vice-versa
+// comment out either leader or zrcommander if you don't use that include
 #undef REQUIRE_PLUGIN
-#include <scp>
+// #include <scp>
+#include <chat-processor>
 #include <leader>
 #include <zrcommander>
 #define REQUIRE_PLUGIN
